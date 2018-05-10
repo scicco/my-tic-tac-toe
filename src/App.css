@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.viewport {
+  font: 14px "Verdana", sans-serif;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  background: #fff;
+  font-size: 30px;
+}
+
+.square:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.black {
+  color: #000;
+}
+
+.winner {
+  color: #f00;
+}
+
+.board-row {
+  height: 50px;
+  line-height: 50px;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
