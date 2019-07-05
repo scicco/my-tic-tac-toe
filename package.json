@@ -12,7 +12,13 @@
     "merge": "^1.2.1",
     "cryptiles": "^4.1.2",
     "url-parse": "^1.4.3",
-    "macaddress": "^0.2.9"
+    "macaddress": "^0.2.9",
+    "stringstream": "^0.0.6",
+    "eslint": "^4.18.2",
+    "loadash": "^4.17.11",
+    "extend": "^3.0.2",
+    "react-dev-utils": "^5.0.2",
+    "webpack-dev-server": "^3.1.11"  
   },
   "scripts": {
     "start": "react-scripts start",
